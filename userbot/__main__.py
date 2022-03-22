@@ -13,9 +13,9 @@ from . import LOGS, LEGENDversion, bot
 
 l1 = Config.HANDLER
 l2 = Config.SUDO_HANDLER
-LEGEND_PIC = "https://telegra.ph/file/e753315316673cff51085.mp4"
+LEGEND_PIC = "https://te.legra.ph/file/8b012f55fc4238151d169.jpg"
 
-perf = "[ Pro Lêɠêɳ̃dẞot ]"
+perf = "[ Pro Invisible Legendẞot ]"
 
 onbot = "start - Check if I am Alive \nping - Pong! \ntr - <lang-code> \nbroadcast - Sends Message To all Users In Bot \nid - Shows ID of User And Media. \naddnote - Add Note \nnotes - Shows Notes \nspam - spam value text (value < 100)\nbigspam - spam value text (value > 100) \nraid - Raid value Reply to Anyone \nreplyraid - Reply To Anyone \ndreplyraid - Reply To Anyone \nrmnote - Remove Note \nalive - Am I Alive? \nbun - Works In Group , Bans A User. \nunbun - Unbans A User in Group \nprumote - Promotes A User \ndemute - Demotes A User \npin - Pins A Message \nstats - Shows Total Users In Bot \npurge - Reply It From The Message u Want to Delete (Your Bot Should be Admin to Execute It) \ndel - Reply a Message Tht Should Be Deleted (Your Bot Should be Admin to Execute It)"
 
@@ -34,7 +34,7 @@ async def add_bot(bot_token):
         bot.me = await bot.get_me()
         bot.uid = telethon.utils.get_peer_id(bot.me)
     except Exception as e:
-        LOGS.error(f"PRO_STRING - {str(e)}")
+        LOGS.error(f"INVISIBLE_STRING - {str(e)}")
         sys.exit()
 
 
@@ -49,24 +49,24 @@ else:
                 "BOT_TOKEN", api_id=Config.APP_ID, api_hash=Config.API_HASH
             ).start(bot_token=Config.BOT_TOKEN)
             LOGS.info("Checking Completed. Proceeding to next step...")
-            LOGS.info("♥️ Starting PRO-LEGENDBOT ♥️")
+            LOGS.info("♥️ Beta Load Ho Rha Bot InvisibleBot ♥️")
             bot.loop.run_until_complete(add_bot(Config.BOT_USERNAME))
-            LOGS.info("🥇🔥 PRO-LEGENDBOT Startup Completed 🔥🥇")
+            LOGS.info("♦️❤️‍🔥  Load Ho Rha Beta Bot  ♦️❤️‍🔥")
         else:
             bot.start()
     except Exception as e:
         LOGS.error(f"BOT_TOKEN - {str(e)}")
         sys.exit()
 
-print("📍⚜Loading Modules / Plugins⚜✔")
+print("📍⚜Loading InvisibleBot / Powers Of LegendS⚜✔")
 
 tgbot = bot.tgbot
 
 
 async def killer():
     LEGEND_USER = bot.me.first_name
-    Pro_LegendBoy = bot.uid
-    legd_mention = f"[{LEGEND_USER}](tg://user?id={Pro_LegendBoy})"
+    MR_INVISIBLE_OFFICIAL = bot.uid
+    legd_mention = f"[{LEGEND_USER}](tg://user?id={MR_INVISIBLE_OFFICIAL})"
     name = f"{legd_mention}'s Assistant"
     description = (
         f"I am Assistant Of {legd_mention}.This Bot Can Help U To Chat With My Master"
@@ -115,11 +115,11 @@ async def killer():
 
 async def legends():
     LEGEND_USER = bot.me.first_name
-    Pro_LegendBoy = bot.uid
-    legd_mention = f"[{LEGEND_USER}](tg://user?id={Pro_LegendBoy})"
-    yescaption = f"Hello Sir/Miss Something Happened \nDing Dong Ting Tong Ping Pong\nSuccessfully PRO-LEGENDBOT Has Been Deployed \nMy Master ~ 『{legd_mention}』 \nVersion ~ {LEGENDversion}\nClick Below To Know More About Me👇🏾👇👇🏼"
+    MR_INVISIBLE_OFFICIAL = bot.uid
+    legd_mention = f"[{LEGEND_USER}](tg://user?id={MR_INVISIBLE_OFFICIAL})"
+    yescaption = f"Hello Sir/Miss Something Happened \nDing Dong Ting Tong Ping Pong\nSuccessfully INVISIBLE LEGENDBOT Has Been Deployed \nMy Master ~ 『{legd_mention}』 \nVersion ~ {LEGENDversion}\nClick Below To Know More About Me👇🏾👇👇🏼"
     try:
-        TRY = [[Button.inline("⭐ Start ⭐", data="start")]]
+        TRY = [[Button.inline("💥 Check 💥", data="start")]]
         await tgbot.send_file(
             bot.me.id, LEGEND_PIC, caption=yescaption, buttons=TRY, incoming=True
         )
@@ -138,8 +138,8 @@ async def help(event):
             message=f"Hey Sir It's Me {bot_id}, Your Assistant! How Can I Help U?",
             buttons=[
                 [
-                    Button.url(" Support ", "https://t.me/LegendBot_Pros"),
-                    Button.url(" Updates ", "https://t.me/Pro_LegendBots"),
+                    Button.url(" Support ", "https://t.me/Official_Invisible_LegendBot"),
+                    Button.url(" Updates ", "https://t.me/Invisible_LegendBot"),
                 ],
                 [
                     custom.Button.inline("Users", data="users"),
@@ -194,7 +194,7 @@ async def help(event):
 async def rel(event):
     if event.query.user_id == bot.uid:
         await event.answer(
-            "Reloading Lêɠêɳ̃dẞø†... Wait for few seconds...", cache_time=0, alert=True
+            "Reloading Invisible Legendẞø†... Wait for few seconds...", cache_time=0, alert=True
         )
         await reload_LEGENDBOT()
     else:
@@ -228,7 +228,7 @@ async def users(event):
         await event.delete()
         await tgbot.send_message(
             event.chat_id,
-            message=".set var <varname> <value> ex:- .set var ALIVE_NAME LegendBoy \n\n To Know All Var Go Back And Click On All Var",
+            message=".set var <varname> <value> ex:- .set var ALIVE_NAME MR_INVISIBLE_OFFICIAL \n\n To Know All Var Go Back And Click On All Var",
             buttons=[
                 [custom.Button.inline("Back", data="osg")],
             ],
@@ -351,12 +351,14 @@ bot.loop.run_until_complete(install())
 
 print(
     f"""
-╔════❰PRO-LEGENDBOT❱═❍⊱❁۪۪
-║┣⪼ OWNER - {Config.ALIVE_NAME}
-║┣⪼ Group - @LegendBot_Pros
-║┣⪼ CREATOR - @Pro_LegendBoy
-║┣⪼ PRO-LEGENDBOT - {LEGENDversion}
-║┣⪼ ✨ 『🔱🇱 🇪 🇬 🇪 🇳 🇩 🔱』𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨
+╔════❰☠️ ᴍʀ ✘ ɪɴᴠɪ🅢ɪʙʟᴇ❱═❍⊱❁۪۪
+╭────────────
+┣🔱 BAAP - {Config.ALIVE_NAME}
+┣🔱 SUPPORT - @Invisible_LegendBot
+┣🔱 UPDATE  - @Official_Invisible_LegendBot
+┣🔱 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 - {LEGENDversion}
+┣🔱 ✨ 『☠️ ᴍʀ ✘ ɪɴᴠɪ🅢ɪʙʟᴇ ༒᭄ʟɛɢɛռɖ᭄✘᭄』𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨
+╰────────────
 ║╰━━━━━━━━━━━━━━━➣
 ╚══════════════════❍⊱"""
 )
