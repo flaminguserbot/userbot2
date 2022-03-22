@@ -13,10 +13,10 @@ except:
 API_ID = os.environ.get("APP_ID", None)
 API_HASH = os.environ.get("API_HASH", None)
 token = os.environ.get("BOT_TOKEN", None)
-lnbot = TelegramClient("legendboy", API_ID, API_HASH).start(bot_token=token)
+lnbot = TelegramClient("invisibleboy", API_ID, API_HASH).start(bot_token=token)
 
 
-class LegendBoy(TelegramClient):
+class InvisibleBoy(TelegramClient):
     def __init__(self, string, api_id, api_hash):
         super().__init__(StringSession(string), api_id, api_hash)
         self.id = None
@@ -46,9 +46,9 @@ Your heroku bot username is {self.heroku_username}"""
         return detail
 
 
-if Config.PRO_STRING:
-    session_name = str(Config.PRO_STRING)
-    sweetie = LegendBoy(session_name, Config.APP_ID, Config.API_HASH)
+if Config.INVISIBLE_STRING:
+    session_name = str(Config.INVISIBLE_STRING)
+    sweetie = InvisibleBoy(session_name, Config.APP_ID, Config.API_HASH)
 else:
     session_name = "startup"
     bbbot = TelegramClient(session_name, Config.APP_ID, Config.API_HASH)
