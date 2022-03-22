@@ -4,18 +4,19 @@ from userbot import *
 
 from . import *
 
-PM_IMG = "https://telegra.ph/file/c26fc61e904476083baa7.jpg"
-pm_caption = f"⚜『Lêɠêɳ̃dẞø†』Is Ôñĺîne⚜ \n\n"
+PM_IMG = "https://te.legra.ph/file/8b012f55fc4238151d169.jpg"
+pm_caption = f"⚜『Beta Baap』Is Ôñĺîne⚜ \n\n"
 pm_caption += f"Ôwñêř ~ 『{legend_mention}』\n"
 pm_caption += f"**╭───────────**\n"
-pm_caption += f"┣Ťêlethon ~ `1.15.0` \n"
-pm_caption += f"┣『Lêɠêɳ̃dẞø†』~ `{LEGENDversion}` \n"
-pm_caption += f"┣Çhâññel ~ [Channel](https://t.me/Pro_LegendBots)\n"
-pm_caption += f"┣**License** ~ [License v3.0](github.com/LegendBot/LEGENBOT/blob/master/LICENSE)\n"
-pm_caption += f"┣Copyright ~ By [『Lêɠêɳ̃dẞø†』 ](https://t.me/LegendBot_Pros)\n"
-pm_caption += f"┣Assistant ~ By [『Lêɠêɳ̃dẞøy』 ](https://t.me/Its_LegendBoy)\n"
+pm_caption += f"┣Ťêlethon ~ `9.15.10` \n"
+pm_caption += f"┣『Invisible LegendBot』~ `{LEGENDversion}` \n"
+pm_caption += f"┣Çhâññel ~ [Channel](https://t.me/Official_Invisible_LegendBot)\n"
+pm_caption += f"┣**License** ~ [License v3.0](github.com/MR-INVISIBLEBOY/INVISIBLEUSERBOT/blob/master/LICENSE)\n"
+pm_caption += f"┣Mode ~ By [『LegendInvisibleBoy』 ](https://t.me/Invisible_LegendBot)\n"
+pm_caption += f"┣Assistant ~ By [『InvisibleBoy』 ](https://t.me/MR_INVISIBLE_OFFICIAL)\n"
+pm_caption += f"┣Linux ~ By  [『Legend X Pro』 ](https://t.me/LegendHacker_IIN)\n"
 pm_caption += f"╰────────────\n"
-pm_caption += f"       »»» [『Lêɠêɳ̃dẞø†』](https://t.me/LegendBot_Pros) «««"
+pm_caption += f"       »»» [『InvisibleBot』](https://t.me/Invisible_LegendBot) «««"
 
 
 @tgbot.on(events.NewMessage(pattern="^/alive"))
