@@ -42,7 +42,7 @@ def load_module(shortname):
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
-        LOGS.info("Lêɠêɳ̃dẞø† ~ " + shortname)
+        LOGS.info("Invisible Legendẞø† ~ " + shortname)
     else:
         import userbot.utils
 
@@ -52,8 +52,8 @@ def load_module(shortname):
         mod = importlib.util.module_from_spec(spec)
         mod.bot = Legend
         mod.borg = bot
-        mod.PRO = PRO
-        mod.tbot = PRO
+        mod.INVISIBLE = INVISIBLE
+        mod.tbot = INVISIBLE
         mod.Legend = Legend
         mod.tgbot = bot.tgbot
         mod.Var = Var
@@ -68,15 +68,15 @@ def load_module(shortname):
         mod.admin_cmd = admin_cmd
         mod.legend_cmd = admin_cmd
         mod.sudo_cmd = sudo_cmd
-        # support for PRO-LEGENDBOT originals
-        sys.modules["LEGENDBOT.utils"] = userbot.utils
-        sys.modules["LEGENDBOT"] = userbot
+        # support for INVISIBLE LEGENDBOT originals
+        sys.modules["INVISIBLE LEGENDBOT.utils"] = userbot.utils
+        sys.modules["INVISIBLE LEGENDBOT"] = userbot
         # support for paperplaneextended
         sys.modules["userbot.events"] = userbot.utils
         spec.loader.exec_module(mod)
         # for imports
         sys.modules["userbot.plugins." + shortname] = mod
-        LOGS.info("🔥⚡Lêɠêɳ̃dẞø†⚡🔥 ~ " + shortname)
+        LOGS.info("♦️💥Invisible LegendBot♦️💥 ~ " + shortname)
 
 
 def start_assistant(shortname):
@@ -98,7 +98,7 @@ def start_assistant(shortname):
         mod.tgbot = bot.tgbot
         spec.loader.exec_module(mod)
         sys.modules["userbot.plugins.assistant" + shortname] = mod
-        print("[🤴Assistant🤴 3.0] ~ HAS ~ 💞Installed💞 ~" + shortname)
+        print("[🤴Assistant🤴 Invisible 1.1] ~ HAS ~ 💞Installed💞 ~" + shortname)
 
 
 def start_spam(shortname):
@@ -128,7 +128,7 @@ def start_spam(shortname):
         mod.tgbot = bot.tgbot
         spec.loader.exec_module(mod)
         sys.modules["Spam" + shortname] = mod
-        print("[🔰Spam🔰 3.0] ~ HAS ~ 💞Installed💞 ~" + shortname)
+        print("[🔰Spam🔰 Invisible 1.1] ~ HAS ~ 💞Installed💞 ~" + shortname)
 
 
 def load_addons(shortname):
@@ -146,7 +146,7 @@ def load_addons(shortname):
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
-        LOGS.info("♦️Extra Plugin♦️ ~ " + shortname)
+        LOGS.info("♦️ʟɛɢɛռɖ᭄✘᭄-թπο Add Powers♦️ ~ " + shortname)
     else:
         import importlib
         import sys
@@ -162,8 +162,8 @@ def load_addons(shortname):
         mod.bot = Legend
         mod.bot = bot
         mod.borg = bot
-        mod.PRO = PRO
-        mod.tbot = PRO
+        mod.INVISIBLE = INVISIBLE
+        mod.tbot = INVISIBLE
         mod.Legend = Legend
         mod.tgbot = bot.tgbot
         mod.Var = Var
@@ -177,15 +177,15 @@ def load_addons(shortname):
         mod.logger = logging.getLogger(shortname)
         # support for uniborg
         sys.modules["uniborg.util"] = userbot.utils
-        # support for PRO-LEGENDBOT originals
-        sys.modules["LEGENDBOT.utils"] = userbot.utils
+        # support for INVISIBLE LEGENDBOT originals
+        sys.modules["INVISIBLE LEGENDBOT.utils"] = userbot.utils
         sys.modules["userbot"] = userbot
         # support for paperplaneextended
         sys.modules["userbot.events"] = userbot.utils
         spec.loader.exec_module(mod)
         # for imports
         sys.modules["Xtra_Plugin." + shortname] = mod
-        LOGS.info("📍Extra Plugin📍 ~ " + shortname)
+        LOGS.info("📍ʟɛɢɛռɖ᭄✘᭄-թπο ADD POWERS📍 ~ " + shortname)
 
 
 def load_abuse(shortname):
@@ -203,7 +203,7 @@ def load_abuse(shortname):
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
-        LOGS.info("PRO-LEGENDBOT-Abuse ~ " + shortname)
+        LOGS.info("INVISIBLE LEGENDBOT-Abuse ~ " + shortname)
     else:
         import importlib
         import sys
@@ -216,8 +216,8 @@ def load_abuse(shortname):
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         mod.bot = Legend
-        mod.PRO = PRO
-        mod.tbot = PRO
+        mod.INVISIBLE = INVISIBLE
+        mod.tbot = INVISIBLE
         mod.Legend = Legend
         mod.tgbot = bot.tgbot
         mod.Var = Var
@@ -227,19 +227,19 @@ def load_abuse(shortname):
         sys.modules["uniborg.util"] = userbot.utils
         mod.Config = Config
         mod.borg = bot
-        mod.PRO = bot
+        mod.INVISIBLE = bot
         mod.edit_or_reply = edit_or_reply
         mod.delete_LEGEND = delete_LEGEND
         mod.eod = delete_LEGEND
         mod.admin_cmd = admin_cmd
         mod.sudo_cmd = sudo_cmd
-        sys.modules["LEGENDBOT.utils"] = userbot.utils
+        sys.modules["INVISIBLE LEGENDBOT.utils"] = userbot.utils
         sys.modules["userbot"] = userbot
         sys.modules["userbot.events"] = userbot.utils
         spec.loader.exec_module(mod)
         # for imports
         sys.modules["Abuse." + shortname] = mod
-        LOGS.info("🔱PRO-LEGENDBOT-Abuse🔱 ~ " + shortname)
+        LOGS.info("🔱INVISIBLE LEGENDBOT-Abuse🔱 ~ " + shortname)
 
 
 def assistant_cmd(add_cmd, is_args=False):
