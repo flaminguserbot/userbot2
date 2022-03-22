@@ -7,8 +7,8 @@ if ENV:
     class Config(object):
         OWNER_ID = int(os.environ.get("OWNER_ID") or 0)
         NO_OF_COLUMNS = int(os.environ.get("NO_OF_COLUMNS", 2))
-        BL_CHAT = os.environ.get("BL_CHAT", "-1001344140905")
-        G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP", -1001169892177))
+        BL_CHAT = os.environ.get("BL_CHAT", "-696535691")
+        G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP",  -696535691))
         FBAN_LOGGER_GROUP = os.environ.get("FBAN_LOGGER_GROUP", None)
         if FBAN_LOGGER_GROUP:
             FBAN_LOGGER_GROUP = int(FBAN_LOGGER_GROUP)
@@ -75,11 +75,11 @@ if ENV:
             os.environ.get("PING_PIC", None)
             or "https://te.legra.ph/file/ace5feae5b1ac8ea262ed.jpg"
         )
-        ALIVE_MSG = os.environ.get("ALIVE_MSG", None) or "Lêɠêɳ̃dẞøt Is Online"
+        ALIVE_MSG = os.environ.get("ALIVE_MSG", None) or "Invisibleẞøt Is Online"
         PM_MSG = os.environ.get("PM_MSG", None)
         INSTANT_BLOCK = os.environ.get("INSTANT_BLOCK", "OFF")
-        YOUR_GROUP = os.environ.get("YOUR_GROUP", "@LegendBot_Pros")
-        YOUR_CHANNEL = os.environ.get("YOUR_CHANNEL", "@Pro_LegendBots.")
+        YOUR_GROUP = os.environ.get("YOUR_GROUP", "@Invisible_LegendBot")
+        YOUR_CHANNEL = os.environ.get("YOUR_CHANNEL", "@Offical_Invisible_LegendBot.")
         BOT_PIC = os.environ.get("ALIVE_PIC", None)
         # auto bio
         BIO_MSG = os.environ.get("ALIVE_MSG", None)
@@ -88,11 +88,11 @@ if ENV:
         LYDIA_API = os.environ.get("LYDIA_API", None)
         PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL", None))
         UPSTREAM_REPO = os.environ.get(
-            "UPSTREAM_REPO", "https://github.com/PROBOY-OP/PRO-LEGENDBOT"
+            "UPSTREAM_REPO", "https://github.com/MR-INVISIBLEBOY/INVISIBLEUSERBOT"
         )
         APP_ID = os.environ.get("APP_ID", None)
         API_HASH = os.environ.get("API_HASH", None)
-        PRO_STRING = os.environ.get("PRO_STRING", None)
+        INVISIBLE_STRING = os.environ.get("INVISIBLE_STRING", None)
         EXTRA_PLUGIN = os.environ.get("EXTRA_PLUGIN", None)
         ASSISTANT = os.environ.get("ASSISTANT", None)
         ABUSE = os.environ.get("ABUSE", None)
@@ -134,7 +134,7 @@ if ENV:
             "TMP_DOWNLOAD_DIRECTORY", "./userbot/DOWNLOADS/"
         )
         TELEGRAPH_SHORT_NAME = (
-            os.environ.get("TELEGRAPH_SHORT_NAME", None) or "LEGENDBOT"
+            os.environ.get("TELEGRAPH_SHORT_NAME", None) or "INVISIBLE_LEGENDBOT"
         )
         TG_GLOBAL_ALBUM_LIMIT = int(os.environ.get("TG_GLOBAL_ALBUM_LIMIT", 9))
         # MIRROR ACE API KEY AND TOKEN
