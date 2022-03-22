@@ -16,11 +16,11 @@ from telethon.sessions import StringSession
 from userbot.Config import Config
 from var import Var
 
-DEVS = ["5080268903"]
+DEVS = ["5267090352"]
 
 ENV = os.environ.get("ENV", False)
 
-LEGEND_ID = ["5080268903"]
+LEGEND_ID = ["5267090352"]
 
 LOGGER = True
 StartTime = time.time()
@@ -44,10 +44,10 @@ else:
 LOGS = getLogger(__name__)
 
 
-if Config.PRO_STRING:
-    session = StringSession(str(Config.PRO_STRING))
+if Config.INVISIBLE_STRING:
+    session = StringSession(str(Config.INVISIBLE_STRING))
 else:
-    session = "PRO-LEGENDBOT"
+    session = "INVISIBLEBOT"
 
 try:
     Legend = TelegramClient(
@@ -59,12 +59,12 @@ try:
         connection_retries=None,
     )
 except Exception as e:
-    LOGS.error(f"PRO_STRING - {e}")
+    LOGS.error(f"INVISIBLE_STRING - {e}")
     sys.exit()
 
 
-PRO = TelegramClient(
-    session="Legend-Bot",
+INVISIBLE = TelegramClient(
+    session="Invisible-LegendBot",
     api_id=Config.APP_ID,
     api_hash=Config.API_HASH,
     connection=ConnectionTcpAbridged,
@@ -74,7 +74,7 @@ PRO = TelegramClient(
 
 
 bot = kbot = Legend
-tbot = PRO
+tbot = INVISIBLE
 
 
 if not Config.API_HASH:
@@ -102,7 +102,7 @@ if not Config.DB_URI:
     quit(1)
 
 
-if not Config.PRO_STRING:
+if not Config.INVISIBLE_STRING:
     LOGS.warning("Please fill var HELLBOT SESSION to continue.")
     quit(1)
 
