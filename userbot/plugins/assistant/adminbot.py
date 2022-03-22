@@ -16,7 +16,7 @@ PP_TOO_SMOL = "`The image is too small`"
 PP_ERROR = "`Failure while processing the image`"
 NO_ADMIN = "`I am not an admin nub nibba!`"
 NO_PERM = (
-    "`I don't have sufficient permissions! This is so sed. Alexa play Tera Baap Aaya`"
+    "`I don't have sufficient permissions! This is so sed. Alexa play  Bhag Bhenchod Tera Baap Aaya`"
 )
 NO_SQL = "`Running on Non-SQL mode!`"
 
@@ -71,7 +71,7 @@ async def ban(event):
     admin = chat.admin_rights
     creator = chat.creator
     if not admin and not creator:
-        await event.reply("I Am Not Admin 🥺.")
+        await event.reply("I Am Not Admin Randi Ke Pile 🥺.")
         return
 
     user, reason = await get_user_from_event(event)
@@ -82,7 +82,7 @@ async def ban(event):
     try:
         await event.client(EditBannedRequest(event.chat_id, user.id, BANNED_RIGHTS))
     except BadRequestError:
-        await event.reply("No Permission Sar 🤭.")
+        await event.reply("No Permission Lowde 🤭.")
         return
     # Helps ban group join spammers more easily
     try:
@@ -115,7 +115,7 @@ async def nothanos(event):
     admin = chat.admin_rights
     creator = chat.creator
     if not admin and not creator:
-        await event.reply("Me Not Admin 🥺")
+        await event.reply("Me Not Admin Madrchod 🥺")
         return
     user = await get_user_from_event(event)
     user = user[0]
@@ -125,9 +125,9 @@ async def nothanos(event):
         return
     try:
         await event.client(EditBannedRequest(event.chat_id, user.id, UNBAN_RIGHTS))
-        await event.reply("`Unbanned Successfully. Granting another chance.🚶`")
+        await event.reply("`Unbanned Successfully Bach Gya Beta Varna Teri Gand Mar Jati. Granting another chance.🚶`")
     except BadRequestError:
-        await event.reply("`No Permission 🤭`")
+        await event.reply("`No Permission Bhenchod 🤭`")
         return
 
 
