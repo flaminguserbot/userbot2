@@ -20,18 +20,18 @@ legend = bot.uid
 mention = f"[{DEFAULTUSER}](tg://user?id={legend})"
 
 
-PM_IMG = "https://telegra.ph/file/4f03f6d4e9521902eb57f.jpg"
-pm_caption = "**𝖑𝖊ɠêɳ̃dẞø✞︎ 𝙸𝚜 𝙾𝚗𝚕𝚒𝚗𝚎**\n\n"
+PM_IMG = "https://te.legra.ph/file/2cbb4f243ebfde6e3fe36.jpg"
+pm_caption = "**☠️ᴍʀ✘ɪɴᴠɪ🅢ɪʙʟᴇ 𝙸𝚜 𝙾𝚗𝚕𝚒𝚗𝚎**\n\n"
 
-pm_caption += f"**┏🔥✞t͛ẞ̸ 𝖑𝖊ɠêɳ̃dẞø✞︎t🔥┓**\n"
-pm_caption += f"**┣🚀 𝙼𝚢 𝙼𝚊𝚜𝚝𝚎𝚛    : {mention}**\n"
-pm_caption += f"**┣🚀 𝚃𝚎𝚕𝚎𝚝𝚑𝚘𝚗 : `{version.__version__}`**\n"
-pm_caption += f"**┣🚀 𝖑𝖊ɠêɳ̃dẞø✞︎ : {LEGENDversion}**\n"
-pm_caption += f"**┣🚀 𝚂𝚞𝚍𝚘     : `{sudou}`**\n"
-pm_caption += f"**┣🚀 𝙾𝚠𝚗𝚎𝚛     : [𝖑𝖊ɠêɳ̃d](https://t.me/Pro_Userboy)**\n"
-pm_caption += f"**┗[♦️𝙶𝚛𝚘𝚞𝚙♦️](https://t.me/LegendBot_Pros)┛**\n"
+pm_caption += f"**┏♦️✞ᴍʀ✘☠️ɪɴᴠɪ🅢ɪʙʟᴇ♦️┓**\n"
+pm_caption += f"**┣.ۗۗ𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭✨ 𝙼𝚢 𝙼𝚊𝚜𝚝𝚎𝚛    : {mention}**\n"
+pm_caption += f"**┣.ۗۗ𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭✨ 𝚃𝚎𝚕𝚎𝚝𝚑𝚘𝚗 : `{version.__version__}`**\n"
+pm_caption += f"**┣.ۗۗ𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭✨ ᴍʀ✘ɪɴᴠɪ🅢ɪʙʟᴇ : {LEGENDversion}**\n"
+pm_caption += f"**┣.ۗۗ𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭✨ 𝚂𝚞𝚍𝚘     : `{sudou}`**\n"
+pm_caption += f"**┣.ۗۗ𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭✨ 𝙾𝚠𝚗𝚎𝚛     : [ᴍʀ✘ɪɴᴠɪ🅢ɪʙʟᴇ](https://t.me/MR_INVISIBLE_OFFICIAL)**\n"
+pm_caption += f"**┗[.ۗۗ𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭♦️𝙶𝚛𝚘𝚞𝚙♦️.ۗۗ𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭](https://t.me/Invisible_LegendBot)┛**\n"
 
-pm_caption += "    [✨яєρο✨](https://github.com/PROBOY-OP/LegendBot) 🔹 [📜License📜](https://github.com/PROBOY-OP/LegendBot/blob/master/LICENSE)"
+pm_caption += "    [✨.ۗۗ𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭яєρο.ۗۗ𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭✨](https://github.com/invisibleofficial11/GOD-INVISIBLE-USERBOT) 🔹 [📜License📜](https://github.com/invisibleofficial11/GOD-INVISIBLE-USERBOT/blob/master/LICENSE)"
 
 
 @bot.on(admin_cmd(outgoing=True, pattern="bot$"))
