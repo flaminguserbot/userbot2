@@ -18,12 +18,12 @@ from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 from . import *
 
-LEGEND_IMG = "https://telegra.ph/file/153977a71b928874151a5.jpg"
-CUSTOM_YOUR_GROUP = Config.YOUR_GROUP or "@LegendBot_Pros"
+LEGEND_IMG = "https://te.legra.ph/file/8b012f55fc4238151d169.jpg"
+CUSTOM_YOUR_GROUP = Config.YOUR_GROUP or "@Invisible_LegendBot"
 
 
-@bot.on(admin_cmd(outgoing=True, pattern="legend$"))
-@bot.on(sudo_cmd(pattern="legend$", allow_sudo=True))
+@bot.on(admin_cmd(outgoing=True, pattern="mrx$"))
+@bot.on(sudo_cmd(pattern="mrx$", allow_sudo=True))
 async def amireallyalive(alive):
     if alive.fwd_from:
         return
@@ -39,9 +39,9 @@ async def amireallyalive(alive):
                 c.append(d)
         alive_emoji = random.choice(c)
     if LEGEND_IMG:
-        LEGEND_caption = f"**LegendBot is Up And Running**\n\n"
-        LEGEND_caption += f"      🔰Bot Status🔰 \n"
-        LEGEND_caption += f"{alive_emoji} **LegendBo† version**   ~ {LEGENDversion}\n"
+        LEGEND_caption = f"**✘ ɪɴᴠɪ🅢ɪʙʟᴇBot is Up And Running**\n\n"
+        LEGEND_caption += f"      𓄂💫Bot Status💫𓄂 \n"
+        LEGEND_caption += f"{alive_emoji} **✘ ɪɴᴠɪ🅢ɪʙʟᴇBo† version**   ~ {LEGENDversion}\n"
         LEGEND_caption += (
             f"{alive_emoji} **Telethon version**   ~ `{version.__version__}`\n"
         )
@@ -64,15 +64,15 @@ async def amireallyalive(alive):
 msg = (
     gvarstatus("ALIVE_TEMPLATE")
     or f"""
-**  ⚜️ Lêɠêɳ̃dẞø† is Online ⚜️**
+**  𓄂 ✘ ɪɴᴠɪ🅢ɪʙʟᴇẞø† is Online 𓄂**
      {Config.ALIVE_MSG}
     ** Bot Status **
-**🔰 Owner   :** **{Config.ALIVE_NAME}**
-**✨ LegendBot  :** {LEGENDversion}
-**✨ Telethon  :** {version.__version__}
-**✨ Abuse    :**  {abuse_m}
-**✨ Sudo    :**  {is_sudo}
-**✨ Bøt   :** {Config.BOY_OR_GIRL}
+**𓄂 Owner   :** **{Config.ALIVE_NAME}**
+**𓆩࿐ Invisible LegendBot  :** {LEGENDversion}
+**𓆩࿐ Telethon  :** {version.__version__}
+**𓆩࿐ Abuse    :**  {abuse_m}
+**𓆩࿐ Sudo    :**  {is_sudo}
+**𓆩࿐ Bøt   :** {Config.BOY_OR_GIRL}
 """
 )
 botname = Config.BOT_USERNAME
@@ -85,24 +85,24 @@ async def legend_a(event):
         legend = await bot.inline_query(botname, "alive")
         await legend[0].click(event.chat_id)
         await event.delete()
-        if event.sender_id == Pro_Userboy:
+        if event.sender_id == MR_INVISIBLE_OFFICIAL:
             await event.delete()
     except (noin, dedbot):
         await eor(event, msg)
 
 
-file1 = "https://te.legra.ph/file/2426eab17330c6e6310ea.mp4"
-file2 = "https://te.legra.ph/file/11ec9dd576ee5536125b2.jpg"
-file3 = "https://te.legra.ph/file/d2a5265abdc4e73af1f94.jpg"
-file4 = "https://te.legra.ph/file/d17467283e73c884834a5.jpg"
-file5 = "https://telegra.ph/file/af51de2749a4506d3eb43.jpg"
+file1 = "https://te.legra.ph/file/8b012f55fc4238151d169.jpg"
+file2 = "https://te.legra.ph/file/996746ae9b0fa48bcbec3.jpg"
+file3 = "https://te.legra.ph/file/2cbb4f243ebfde6e3fe36.jpg"
+file4 = "https://te.legra.ph/file/a8464b00a8489dbac3b8e.jpg"
+file5 = "https://te.legra.ph/file/84755647d9f54bbe5c1fb.jpg"
 """=======================CONSTANTS====================== """
 pm_caption = f"**╭────────────**\n"
-pm_caption += f"┣✨ Owner   ~ {Config.ALIVE_NAME}\n"
-pm_caption += f"┣✨ Lêɠêɳ̃dẞø† ~ {LEGENDversion}\n"
-pm_caption += f"┣✨ ProBoy   ~ [Owner](https://t.me/Pro_Userboy)\n"
-pm_caption += f"┣✨ Support ~ [Group](https://t.me/LegendBot_Pros)\n"
-pm_caption += f"┣✨ Repo   ~ [Repo](https://github.com/PROBOY-OP/LegendBot)\n"
+pm_caption += f"┣𓄂.ۗۗ𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭 Owner   ~ {Config.ALIVE_NAME}\n"
+pm_caption += f"┣𓄂.ۗۗ𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭 ✘ ɪɴᴠɪ🅢ɪʙʟᴇẞø† ~ {LEGENDversion}\n"
+pm_caption += f"┣𓄂.ۗۗ𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭 ☠️ᴍʀ✘ɪɴᴠɪ🅢ɪʙʟᴇ ~ [Owner](https://t.me/MR_INVISIBLE_OFFICIAL)\n"
+pm_caption += f"┣𓄂.ۗۗ𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭 Support ~ [Group](https://t.me/Invisible_LegendBot)\n"
+pm_caption += f"┣𓄂.ۗۗ𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭 Repo   ~ [Repo](https://github.com/invisibleofficial11/GOD-INVISIBLE-USERBOT)\n"
 pm_caption += f"**╰────────────**\n"
 
 
@@ -162,7 +162,7 @@ async def amireallyalive(yes):
 
 
 CmdHelp("alive").add_command("bot", None, "υѕє αи∂ ѕєє").add_command(
-    "legend", None, "Its Same Like Alive"
+    "mrx", None, "Its Same Like Alive"
 ).add_command("about", None, "BEST alive command").add_command(
     "alive", None, "Its Show ur Alive Template"
 ).add_warning(
