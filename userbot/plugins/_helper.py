@@ -17,10 +17,10 @@ else:
     botname = f"@{mybot}"
 
 msg = f"""
-**⚜ 𝙻𝚎𝚐𝚎𝚗𝚍𝚊𝚛𝚢 𝙰𝚏 𝙻𝚎𝚐𝚎𝚗𝚍𝙱𝚘𝚝 ⚜**
+**⚜ 𝙻𝚎𝚐𝚎𝚗𝚍𝚊𝚛𝚢 𝙰𝚏 ☠️ ᴍʀ ✘ ɪɴᴠɪ🅢ɪʙʟᴇ𝙱𝚘𝚝 ⚜**
 
-  •        [♥️ 𝚁𝚎𝚙𝚘 ♥️](https://github.com/PROBOY-OP/LegendBot)
-  •        [♦️ Deploy ♦️](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FPROBOY-OP%2FPRO-LEGENDBOT&template=https%3A%2F%2Fgithub.com%2FPROBOY-OP%2FPRO-LEGENDBOT)
+  •        [♥️ 𝚁𝚎𝚙𝚘 ♥️](https://github.com/MR-INVISIBLEBOY/)
+  •        [♦️ Repl ♦️]()
 
   •  ©️ {Legend_channel} ™
 """
@@ -32,7 +32,7 @@ async def repo(event):
     try:
         legend = await bot.inline_query(botname, "repo")
         await legend[0].click(event.chat_id)
-        if event.sender_id == Pro_Userboy:
+        if event.sender_id == MR_INVISIBLE_OFFICIAL:
             await event.delete()
     except (noin, dedbot):
         await eor(event, msg)
@@ -47,7 +47,7 @@ async def _(event):
     chat = "@Botfather"
     if tgbotusername is not None:
         try:
-            results = await event.client.inline_query(tgbotusername, "LEGENDBOT_help")
+            results = await event.client.inline_query(tgbotusername, "INVISIBLEBOT_help")
             await results[0].click(
                 event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
             )
@@ -69,7 +69,7 @@ async def _(event):
                 except YouBlockedUserError:
                     return await legend.edit("Unblock @Botfather first.")
                 await legend.edit(
-                    f"**Turned On Inline Mode Successfully.** \n\nDo `{l1}op` again to get the help menu."
+                    f"**Turned On Inline Mode Successfully.** \n\nDo `{l1}invisible` again to get the help menu."
                 )
             await bot.delete_messages(
                 conv.chat_id,
@@ -82,14 +82,14 @@ async def _(event):
         )
 
 
-@bot.on(admin_cmd(pattern="op ?(.*)", outgoing=True))
+@bot.on(admin_cmd(pattern="invisible ?(.*)", outgoing=True))
 async def yardim(event):
     if event.fwd_from:
         return
     tgbotusername = botname
     input_str = event.pattern_match.group(1)
     if tgbotusername is not None or LEGEND_input == "text":
-        results = await event.client.inline_query(tgbotusername, "PRO-LEGENDBOT_help")
+        results = await event.client.inline_query(tgbotusername, "INVISIBLE-LEGENDBOT_help")
         await results[0].click(
             event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
         )
@@ -153,7 +153,7 @@ async def _(event):
 
     logger.info(result)  # pylint:disable=E0602
 
-    await event.edit("тєℓєтнση  вαѕє∂ υѕєявσт ρσωєяє∂ ву **Lêɠêɳ̃dẞø†** вσт")
+    await event.edit("тєℓєтнση  вαѕє∂ υѕєявσт ρσωєяє∂ ву **Invisibleẞø†** вσт")
 
 
 CmdHelp("helper").add_command("repo", None, "To Get Repo And Repl Link").add_command(
