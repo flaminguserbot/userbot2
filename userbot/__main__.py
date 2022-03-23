@@ -13,7 +13,7 @@ from . import LOGS, LEGENDversion, bot
 
 l1 = Config.HANDLER
 l2 = Config.SUDO_HANDLER
-LEGEND_PIC = "https://te.legra.ph/file/8b012f55fc4238151d169.jpg"
+LEGEND_PIC = "https://te.legra.ph/file/a8464b00a8489dbac3b8e.jpg"
 
 perf = "[ Pro Invisible Legendẞot ]"
 
