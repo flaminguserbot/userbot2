@@ -19,8 +19,8 @@ async def reply_id(event):
 
 
 LEGEND_IMG = Config.AWAKE_PIC
-CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "ℓєgєи∂ Choice ℓєgєи∂ϐοτ"
-CUSTOM_YOUR_GROUP = Config.YOUR_GROUP or "@LegendBot_Pros"
+CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "☠️ ᴍʀ ✘ ɪɴᴠɪ🅢ɪʙʟᴇ Choice ɪɴᴠɪ🅢ɪʙʟᴇϐοτ"
+CUSTOM_YOUR_GROUP = Config.YOUR_GROUP or "@Invisible_LegendBot"
 
 
 def get_readable_time(seconds: int) -> str:
@@ -65,12 +65,12 @@ async def amireallyalive(event):
         LEGEND_caption = f"**{legend_mention}**\n"
 
         LEGEND_caption += f"~~~~~~~~~~~~~~~~~~~~~~~\n"
-        LEGEND_caption += f"     ⚜ 𝓛𝓮𝓰𝓮𝓷𝓭𝓑𝓸𝓽 𝓘𝓼 𝓐𝔀𝓪𝓴𝓮 ⚜\n"
-        LEGEND_caption += f"•🔥• Lêɠêɳ̃dẞø†     : ν3.0\n"
-        LEGEND_caption += f"•🔥• 𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽      : `{version.__version__}`\n"
-        LEGEND_caption += f"•🔥• 𝚄𝙿𝚃𝙸𝙼𝙴         : `{uptime}`\n"
-        LEGEND_caption += f"•🔥• 𝙲𝙷𝙰𝙽𝙽𝙴𝙻        : [𝕮нαииєℓ](t.me/Pro_LegendBots)\n"
-        LEGEND_caption += f"•🔥• ᴹʸ 𝙶𝚁𝙾𝚄𝙿 : {CUSTOM_YOUR_GROUP}\n"
+        LEGEND_caption += f"     .ۗۗ𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭 ☠️ᴍʀ✘ɪɴᴠɪ🅢ɪʙʟᴇ𝓑𝓸𝓽 𝓘𝓼 𝓐𝔀𝓪𝓴𝓮 ⚜\n"
+        LEGEND_caption += f"𖣔ꠋꠋ➖⃟• ☠️ᴍʀ✘ɪɴᴠɪ🅢ɪʙʟᴇẞø†     : ν1.0\n"
+        LEGEND_caption += f"𖣔ꠋꠋ➖⃟• 𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽      : `{version.__version__}`\n"
+        LEGEND_caption += f"𖣔ꠋꠋ➖⃟• 𝚄𝙿𝚃𝙸𝙼𝙴         : `{uptime}`\n"
+        LEGEND_caption += f"𖣔ꠋꠋ➖⃟• 𝙲𝙷𝙰𝙽𝙽𝙴𝙻        : [𝕮нαииєℓ](t.me/Official_Invisible_LegendBot)\n"
+        LEGEND_caption += f"𖣔ꠋꠋ➖⃟• ᴹʸ 𝙶𝚁𝙾𝚄𝙿 : {CUSTOM_YOUR_GROUP}\n"
 
         await event.client.send_file(
             event.chat_id, LEGEND_IMG, caption=LEGEND_caption, reply_to=reply_to_id
@@ -83,10 +83,10 @@ async def amireallyalive(event):
             f"~~~~~~~~~~~~~~~~~~~~~~~ \n"
             f"         𝕭𝖔𝖙 𝕾𝖙𝖆𝖙𝖚𝖘\n"
             f"•⚡• 𝕿єℓєτнοи    : `{version.__version__}`\n"
-            f"🇮🇳 ℓєgєи∂ϐοτ  : `{LEGENDversion}`\n"
+            f"🇮🇳 ☠️ᴍʀ✘ɪɴᴠɪ🅢ɪʙʟᴇϐοτ  : `{LEGENDversion}`\n"
             f"🇮🇳 υρτιмє        : `{uptime}`\n"
             f"🔱 ɱαรƭεɾ        : {mention}\n"
-            f"🔱 σωɳεɾ         : [ℓєgєи∂](t.me/Pro_Userboy)\n",
+            f"🔱 σωɳεɾ         : [☠️ ᴍʀ ✘ ɪɴᴠɪ🅢ɪʙʟᴇ](t.me/MR_INVISIBLE_OFFICIAL)\n",
         )
 
 
