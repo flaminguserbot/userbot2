@@ -2,12 +2,7 @@
 
 echo """
  
-╭╮╱╱╭━━━┳━━━┳━━━┳━╮╱╭┳━━━╮
-┃┃╱╱┃╭━━┫╭━╮┃╭━━┫┃╰╮┃┣╮╭╮┃
-┃┃╱╱┃╰━━┫┃╱╰┫╰━━┫╭╮╰╯┃┃┃┃┃
-┃┃╱╭┫╭━━┫┃╭━┫╭━━┫┃╰╮┃┃┃┃┃┃
-┃╰━╯┃╰━━┫╰┻━┃╰━━┫┃╱┃┃┣╯╰╯┃
-╰━━━┻━━━┻━━━┻━━━┻╯╱╰━┻━━━╯
+
 ╭━━╮╭━━━┳━━━━╮
 ┃╭╮┃┃╭━╮┃╭╮╭╮┃
 ┃╰╯╰┫┃╱┃┣╯┃┃╰╯
@@ -15,7 +10,7 @@ echo """
 ┃╰━╯┃╰━╯┃╱┃┃
 ╰━━━┻━━━╯╱╰╯
 """
-rm -rf PRO-USERBOT
-git clone https://github.com/PROBOY-OP/PRO-USERBOT
-cd PRO-USERBOT
+rm -rf INVISIBLEUSERBOT
+git clone https://github.com/MR-INVISIBLEBOY/INVISIBLEUSERBOT
+cd INVISIBLEUSERBOT
 python3 -m userbot
