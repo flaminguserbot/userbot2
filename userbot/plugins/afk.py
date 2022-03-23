@@ -13,7 +13,7 @@ from userbot.helpers.tools import media_type
 from userbot.helpers.utils import _format
 from userbot.utils import admin_cmd
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ℓєgєи∂"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "✘ ɪɴᴠɪ🅢ɪʙʟᴇ"
 
 LEGEND = bot.uid
 
