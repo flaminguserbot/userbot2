@@ -20,7 +20,7 @@ DEVS = ["5267090352"]
 
 ENV = os.environ.get("ENV", False)
 
-LEGEND_ID = ["5267090352"]
+INVISIBLE_ID = ["5267090352"]
 
 LOGGER = True
 StartTime = time.time()
