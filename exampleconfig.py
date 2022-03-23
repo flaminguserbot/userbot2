@@ -8,8 +8,8 @@ class Development(Config):
   API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
 
   # the name to display in your alive message.
-  # If not filled anything then default value is LEGEND User.
-  ALIVE_NAME = "Pro Boy"
+  # If not filled anything then default value is LEGENDS User.
+  ALIVE_NAME = "Invisible Boy"
 
   # create any PostgreSQL database.
   # I recommend to use elephantsql and paste that link here
@@ -18,7 +18,7 @@ class Development(Config):
   # After cloning the repo and installing requirements...
   # String session will be saved in your saved message of telegram.
   # Put that string here.
-  PRO_STRING = "Your value"
+  INVISIBLE_STRING = "Your value"
 
   # Create a bot in @botfather and fill the following values with bot token and username.
   BOT_TOKEN = "Your value" #token
