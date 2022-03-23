@@ -68,7 +68,7 @@ msg = (
      {Config.ALIVE_MSG}
     ** Bot Status **
 **𓄂 Owner   :** **{Config.ALIVE_NAME}**
-**𓆩࿐ Invisible LegendBot  :** {LEGENDversion}
+**𓆩࿐ Invisible-LegendBot  :** {LEGENDversion}
 **𓆩࿐ Telethon  :** {version.__version__}
 **𓆩࿐ Abuse    :**  {abuse_m}
 **𓆩࿐ Sudo    :**  {is_sudo}
