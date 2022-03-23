@@ -13,7 +13,7 @@ from . import LOGS, LEGENDversion, bot
 
 l1 = Config.HANDLER
 l2 = Config.SUDO_HANDLER
-LEGEND_PIC = "https://te.legra.ph/file/a8464b00a8489dbac3b8e.jpg"
+INVISIBLE_PIC = "https://te.legra.ph/file/a8464b00a8489dbac3b8e.jpg"
 
 perf = "[ Pro Invisible Legendẞot ]"
 
@@ -64,9 +64,9 @@ tgbot = bot.tgbot
 
 
 async def killer():
-    LEGEND_USER = bot.me.first_name
+    INVISIBLE_USER = bot.me.first_name
     MR_INVISIBLE_OFFICIAL = bot.uid
-    legd_mention = f"[{LEGEND_USER}](tg://user?id={MR_INVISIBLE_OFFICIAL})"
+    legd_mention = f"[{INVISIBLE_USER}](tg://user?id={MR_INVISIBLE_OFFICIAL})"
     name = f"{legd_mention}'s Assistant"
     description = (
         f"I am Assistant Of {legd_mention}.This Bot Can Help U To Chat With My Master"
@@ -121,7 +121,7 @@ async def legends():
     try:
         TRY = [[Button.inline("💥 Check 💥", data="start")]]
         await tgbot.send_file(
-            bot.me.id, LEGEND_PIC, caption=yescaption, buttons=TRY, incoming=True
+            bot.me.id, INVISIBLE_PIC, caption=yescaption, buttons=TRY, incoming=True
         )
     except:
         pass
@@ -357,7 +357,7 @@ print(
 ┣🔱 SUPPORT - @Invisible_LegendBot
 ┣🔱 UPDATE  - @Official_Invisible_LegendBot
 ┣🔱 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 - {LEGENDversion}
-┣🔱 ✨ 『☠️ ᴍʀ ✘ ɪɴᴠɪ🅢ɪʙʟᴇ ༒᭄ʟɛɢɛռɖ᭄✘᭄』𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨
+┣🔱 ✨ 『☠️ ᴍʀ ✘ ɪɴᴠɪ🅢ɪʙʟᴇ᭄』𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨
 ╰────────────
 ║╰━━━━━━━━━━━━━━━➣
 ╚══════════════════❍⊱"""
