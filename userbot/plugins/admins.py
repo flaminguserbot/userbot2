@@ -150,7 +150,7 @@ async def promote(promt):
     LEGENDevent = await edit_or_reply(promt, "Promoting...")
     user, rank = await get_user_from_init(promt)
     if not rank:
-        rank = "ℓєgєи∂"
+        rank = "✘ɪɴᴠɪ🅢ɪʙʟᴇ"
     if not user:
         return
     try:
@@ -257,7 +257,7 @@ async def _ban(event):
                 LOGGER_ID,
                 f"#BAN\
                 \nUSER: [{user.first_name}](tg://user?id={user.id})\
-                \nCHAT: {get_display_name(await event.get_chat())}(`{event.chat_id}`)\
+                \nCHAT: {get_display_name(await event.get_chat(1598))}(`{event.chat_id}`)\
                 \nREASON : {reason}",
             )
         else:
@@ -468,7 +468,7 @@ async def endmute(event):
                 LOGGER_ID,
                 "#UNMUTE\n"
                 f"**User :** [{user.first_name}](tg://user?id={user.id})\n"
-                f"**Chat :** {get_display_name(await event.get_chat())}(`{event.chat_id}`)",
+                f"**Chat :** {get_display_name(await event.get_chat(8109))}(`{event.chat_id}`)",
             )
 
 
