@@ -57,23 +57,23 @@ if ENV:
         ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", None) or "✥"
         ALIVE_PIC = (
             os.environ.get("ALIVE_PIC", None)
-            or "https://telegra.ph/file/af51de2749a4506d3eb43.jpg"
+            or "https://te.legra.ph/file/a8464b00a8489dbac3b8e.jpg"
         )
         PM_PIC = (
             os.environ.get("PM_PIC", None)
-            or "https://te.legra.ph/file/0c605739ddaa472cad75f.jpg"
+            or "https://te.legra.ph/file/2cbb4f243ebfde6e3fe36.jpg"
         )
         AWAKE_PIC = (
             os.environ.get("AWAKE_PIC", None)
-            or "https://telegra.ph/file/47ffec836544b371408ab.mp4"
+            or "https://te.legra.ph/file/a8464b00a8489dbac3b8e.jpg"
         )
         HELP_PIC = (
             os.environ.get("HELP_PIC", None)
-            or "https://te.legra.ph/file/b5d01ceea49ee0a822661.mp4"
+            or "https://te.legra.ph/file/8b012f55fc4238151d169.jpg"
         )
         PING_PIC = (
             os.environ.get("PING_PIC", None)
-            or "https://te.legra.ph/file/ace5feae5b1ac8ea262ed.jpg"
+            or "https://te.legra.ph/file/996746ae9b0fa48bcbec3.jpg"
         )
         ALIVE_MSG = os.environ.get("ALIVE_MSG", None) or "Invisibleẞøt Is Online"
         PM_MSG = os.environ.get("PM_MSG", None)
@@ -177,7 +177,7 @@ if ENV:
         # open load
         OPEN_LOAD_LOGIN = os.environ.get("OPEN_LOAD_LOGIN", None)
         OPEN_LOAD_KEY = os.environ.get("OPEN_LOAD_KEY", None)
-        # number of colums of buttons to be displayed in .legend command
+        # number of colums of buttons to be displayed in .mrx command
 
 else:
 
