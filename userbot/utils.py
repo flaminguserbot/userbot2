@@ -17,7 +17,7 @@ from telethon import events
 from telethon.tl.functions.channels import GetParticipantRequest
 from telethon.tl.types import ChannelParticipantAdmin, ChannelParticipantCreator
 
-from userbot import CMD_LIST, LOAD_PLUG, LOGS, PRO, SUDO_LIST, Legend, bot
+from userbot import CMD_LIST, LOAD_PLUG, LOGS, INVISIBLE, SUDO_LIST, Legend, bot
 from userbot.Config import Config
 from userbot.helpers.exceptions import CancelProcess
 from var import Var
