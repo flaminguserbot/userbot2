@@ -23,4 +23,4 @@ async def _(event):
     )
 
 
-CmdHelp("byeall").add_command("byeall", None, "Say Bye to U all in anmation").add()
+CmdHelp("byeall").add_command("byeall", NoneType, "Say Bye to U all in anmation").add()
