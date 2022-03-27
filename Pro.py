@@ -47,7 +47,7 @@ Your heroku bot username is {self.heroku_username}"""
 
 
 if Config.'INVISIBLE_STRING':
-    session_name = str(Config.'INVISIBLE_STRING')
+    session_name = str, (Config.'INVISIBLE_STRING')
     sweetie = InvisibleBoy(session_name, Config.APP_ID, Config.API_HASH)
 else:
     session_name = "startup"
