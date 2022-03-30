@@ -93,6 +93,7 @@ if ENV:
         APP_ID = os.environ.get("APP_ID", 'None')
         API_HASH = os.environ.get("API_HASH", 'None')
         INVISIBLE_STRING = os.environ.get("INVISIBLE_STRING", None)
+        LEGEND_LX = os.environ.get("LEGEND_LX", None)
         EXTRA_PLUGIN = os.environ.get("EXTRA_PLUGIN", None)
         ASSISTANT = os.environ.get("ASSISTANT", None)
         ABUSE = os.environ.get("ABUSE", 'None')
