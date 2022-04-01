@@ -76,7 +76,7 @@ if ENV:
             or "https://te.legra.ph/file/996746ae9b0fa48bcbec3.jpg"
         )
         ALIVE_MSG = os.environ.get("ALIVE_MSG", None) or "Invisibleẞøt Is Online"
-        RISHABH_AI = os.environ.get("RISHABH_AI", None) or "PASSWORD/RISHABH_AI"
+        RISHABH_AI = os.environ.get("RISHABH_AI", None)
         PM_MSG = os.environ.get("PM_MSG", None)
         INSTANT_BLOCK = os.environ.get("INSTANT_BLOCK", "OFF")
         YOUR_GROUP = os.environ.get("YOUR_GROUP", "@Invisible_LegendBot")
