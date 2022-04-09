@@ -41,7 +41,7 @@ async def hekp():
             await bot.send_file(
                 Config.LOGGER_ID,
                 LEGEND_PIC,
-                caption=f"#Start\nInvisible-LegendBot Has Been Successfully Deployed \nClick Here ~ {Config.BOT_USERNAME}\nAny Query ~ @Invisible_LegendBot",
+                caption=f"#Start\nInvisible-LegendBot-v1.0 COMING SOON V2.0 BUT PLZ SUPPORT ALL USERS Has Been Successfully Deployed \nClick Here ~ {Config.BOT_USERNAME}\nAny Query ~ @Invisible_LegendBot",
             )
     except Exception as e:
         print(str(e))
