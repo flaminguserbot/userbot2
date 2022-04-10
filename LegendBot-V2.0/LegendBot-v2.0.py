@@ -36,4 +36,6 @@ input system in await(system_v)))
  "ALIVE MODIOLS JAVA "
   "ALIVE MODE ON BYE LEGENDX-PRO"
  "ALIVE LEGENDBOT-V2.0"
-                    
+             Print ("Legend-Lx"),get
+        
+       Await: pattern($op))
