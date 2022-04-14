@@ -34,14 +34,14 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "please check out to an official branch, and re-start the updater."
 )
 OFFICIAL_UPSTREAM_REPO = Config.UPSTREAM_REPO
-BOT_IS_UP_TO_DATE = "**The LegendBot** is up-to-date sir."
+BOT_IS_UP_TO_DATE = "**The Invisible-LegendBot** is up-to-date sir."
 NEW_BOT_UP_DATE_FOUND = (
     "new update found for {branch_name}\n"
     "changelog: \n\n{changelog}\n"
-    "updating your LegendBot ..."
+    "updating your Invisible-LegendBot ..."
 )
 NEW_UP_DATE_FOUND = (
-    "New update found for {branch_name}\n" "`updating your LegendBot...`"
+    "New update found for {branch_name}\n" "`updating your Invisible-LegendBot...`"
 )
 REPO_REMOTE_NAME = "temponame"
 IFFUCI_ACTIVE_BRANCH_NAME = "Pro"
@@ -49,7 +49,7 @@ DIFF_MARKER = "HEAD..{remote_name}/{branch_name}"
 NO_HEROKU_APP_CFGD = "no heroku application found, but a key given? 😕 "
 
 PRO_LEGENDBOT_info = (
-    "https://raw.githubusercontent.com/LegendBot/PRO-USERBOT/Pro/proboy-info.json"
+    "https://raw.githubusercontent.com/MR-INVISIBLEBOY/INVISIBLE-LEGENDBOT/Pro/proboy-info.json"
 )
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 requirements_path = os.path.join(
@@ -59,11 +59,11 @@ requirements_path = os.path.join(
 
 async def legend_info(PRO_LEGENDBOT_info):
     infos = requests.get(PRO_LEGENDBOT_info).json()
-    _version = infos["LegendBot-INFO"]["version"]
-    _release = infos["LegendBot-INFO"]["release-date"]
-    _branch = infos["LegendBot-INFO"]["branch"]
-    _author = infos["LegendBot-INFO"]["author"]
-    _auturl = infos["LegendBot-INFO"]["author-url"]
+    _version = infos["Invisible-LegendBot-INFO"]["version"]
+    _release = infos["Invisible-LegendBot-INFO"]["release-date"]
+    _branch = infos["Invisible-LegendBot-INFO"]["branch"]
+    _author = infos["Invisible-LegendBot-INFO"]["author"]
+    _auturl = infos["Invisible-LegendBot-INFO"]["author-url"]
     return _version, _release, _branch, _author, _auturl
 
 
@@ -196,7 +196,7 @@ async def upstream(event):
     changelog = await gen_chlog(repo, f"HEAD..upstream/{ac_br}")
     if changelog == "" and not force_update:
         await event.edit(
-            "\n**😎 Lêɠêɳ̃dẞø† is UP-TO-DATE.**"
+            "\n**😎 Invisible-Lêɠêɳ̃dẞø† is UP-TO-DATE.**"
             f"\n\n**Version :**  {LEGENDversion}"
             f"\n**Owner :**  {legend_mention}"
             "\nRelease Date : 16 December 2021"
@@ -207,12 +207,12 @@ async def upstream(event):
         await print_changelogs(event, ac_br, changelog)
         await event.delete()
         return await event.respond(
-            f"🌚 Do `.update build` to update your **Legendẞø†** !!"
+            f"🌚 Do `.update build` to update your **Invisible-Legendẞø†** !!"
         )
 
     if force_update:
         await event.edit(
-            "\n**😎 Lêɠêɳ̃dẞø† is UP-TO-DATE.**"
+            "\n**😎 Invisible-Lêɠêɳ̃dẞø† is UP-TO-DATE.**"
             f"\n\n**Version :**  {LEGENDversion}"
             f"\n**Owner :**  {legend_mention}"
             "\nRelease Date : 16 December 2021"
@@ -405,7 +405,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         await event.edit(
-            f"**Your Lêɠêɳ̃dẞø† Is UpToDate**\n\n**Version :**  __{LEGENDversion}__\n**Oɯɳҽɾ :**  {legend_mention}"
+            f"**Your Invisible-Lêɠêɳ̃dẞø† Is UpToDate**\n\n**Version :**  __{LEGENDversion}__\n**Oɯɳҽɾ :**  {legend_mention}"
         )
     else:
         await event.edit(
