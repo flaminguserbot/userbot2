@@ -41,6 +41,7 @@ async def amireallyalive(alive):
     if LEGEND_IMG:
         LEGEND_caption = f"**✘ ɪɴᴠɪ🅢ɪʙʟᴇBot is Up And Running**\n\n"
         LEGEND_caption += f"      𓄂💫Bot Status💫𓄂 \n"
+        LEGEND_caption += f"   𓄂Cyber Security Powerfull𓄂 \n"
         LEGEND_caption += f"{alive_emoji} **✘ ɪɴᴠɪ🅢ɪʙʟᴇBo† version**   ~ {LEGENDversion}\n"
         LEGEND_caption += (
             f"{alive_emoji} **Telethon version**   ~ `{version.__version__}`\n"
