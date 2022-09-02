@@ -38,15 +38,15 @@ async def start(event):
     replied_user = await event.client(GetFullUserRequest(event.sender_id))
     replied_user.user.first_name
     vent = event.chat_id
-    starttext = f"Hey! 👤{mention},\nI am {my_mention}'s assistant bot.\nYou can contact to my master from here.\n\nPowered By [『InvisibleBot』](https://t.me/Invisible_LegendBot)"
+    starttext = f"Hey! 👤{mention},\nI am {my_mention}'s assistant bot.\nYou can contact to my master from here.\n\nPowered By [『FlamingBot』](https://t.me/flamingchat)"
     if event.sender_id == bot.uid:
         await tgbot.send_message(
             vent,
             message=f"Hi Sir/Miss, It's Me {bot_id}, Your Assistant ! \nHow Can I help U?",
             buttons=[
                 [
-                    Button.url(" Support ", "https://t.me/Invisible_LegendBot"),
-                    Button.url(" Updates ", "https://t.me/Official_Invisible_LegendBot"),
+                    Button.url(" Support ", "https://t.me/flamingsupport"),
+                    Button.url(" Updates ", "https://t.me/flamingchat"),
                 ],
                 [
                     custom.Button.inline("Users", data="users"),
@@ -66,8 +66,8 @@ async def start(event):
             link_preview=False,
             buttons=[
                 [
-                    Button.url(" Repo ", "https://github.com/MR-INVISIBLEBOY/GOD-INVISIBLE-USERBOT"),
-                    Button.url(" Support ", "https://t.me/Invisible_LegendBot"),
+                    Button.url(" Repo ", "https://github.com/FLAMING-AI/userbot2"),
+                    Button.url(" Support ", "https://t.me/flamingsupport"),
                 ],
             ],
         )
