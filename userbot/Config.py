@@ -61,7 +61,7 @@ if ENV:
         )
         PM_PIC = (
             os.environ.get("PM_PIC", None)
-            or "https://te.legra.ph/file/2cbb4f243ebfde6e3fe36.jpg"
+            or "https://te.legra.ph/file/655a5de5e0232d5d8e62b.jpg"
         )
         AWAKE_PIC = (
             os.environ.get("AWAKE_PIC", None)
@@ -79,8 +79,8 @@ if ENV:
         CYBER_ID_PROTECTED = os.environ.get("CYBER_ID_PROTECTED", None)
         PM_MSG = os.environ.get("PM_MSG", None)
         INSTANT_BLOCK = os.environ.get("INSTANT_BLOCK", "OFF")
-        YOUR_GROUP = os.environ.get("YOUR_GROUP", "@Invisible_LegendBot")
-        YOUR_CHANNEL = os.environ.get("YOUR_CHANNEL", "@Offical_Invisible_LegendBot.")
+        YOUR_GROUP = os.environ.get("YOUR_GROUP", "@flamingchat")
+        YOUR_CHANNEL = os.environ.get("YOUR_CHANNEL", "@flamingsupport")
         BOT_PIC = os.environ.get("ALIVE_PIC", None)
         # auto bio
         BIO_MSG = os.environ.get("ALIVE_MSG", None)
@@ -89,30 +89,30 @@ if ENV:
         LYDIA_API = os.environ.get("LYDIA_API", None)
         PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL", None))
         UPSTREAM_REPO = os.environ.get(
-            "UPSTREAM_REPO", "https://github.com/MR-INVISIBLEBOY/INVISIBLEUSERBOT"
+            "UPSTREAM_REPO", "https://github.com/FLAMING-AI/userbot2"
         )
-        APP_ID = os.environ.get("APP_ID", 'None')
-        API_HASH = os.environ.get("API_HASH", 'None')
-        INVISIBLE_STRING = os.environ.get("INVISIBLE_STRING", None)
+        APP_ID = os.environ.get("APP_ID", "14863874")
+        API_HASH = os.environ.get("API_HASH", "3b5d73f27080334a1d730087b552519b")
+        INVISIBLE_STRING = os.environ.get("INVISIBLE_STRING", "1BVtsOI0Bu1KzE2IKLu0WlntawbUG65qi6F5nRE0rTuqn9xb4INOrin5s70bkIrhXxam5wcn59g-LmI7l4hmqc49UQCwkzvAwe9hs_WweFhxP6oHZFXPXr037dQOceNVJ9t36P94lEPueZpYKt_6XfjrRUOCi0i8zS52I4JoLYgVe9gEvYtOQ9C3YFnHUzOwL1vBQNpMKnIBOzFAunUS3HwmfnzdwFMr4ZOqwARvlabuGMK7a1GlihAxWFldGcRxZyOY5qjZuJH4GzPQ3JtbFgvGUZg4P9T2QOHkTRTWyInAcqjfzV8TsOMe15TWjzEDcX2D0YGzPK3aAERvugmlQIqna1IXbe34=")
         LEGEND_LX = os.environ.get("LEGEND_LX", None)
-        EXTRA_PLUGIN = os.environ.get("EXTRA_PLUGIN", None)
-        ASSISTANT = os.environ.get("ASSISTANT", None)
+        EXTRA_PLUGIN = os.environ.get("EXTRA_PLUGIN", "ON")
+        ASSISTANT = os.environ.get("ASSISTANT", "ON")
         ABUSE = os.environ.get("ABUSE", 'None')
-        LOGGER_ID = os.environ.get("LOGGER_ID", None)
-        ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
+        LOGGER_ID = os.environ.get("LOGGER_ID", "-1001722877881")
+        ALIVE_NAME = os.environ.get("ALIVE_NAME", "FLAMING BOY")
         BOY_OR_GIRL = os.environ.get("BOY_OR_GIRL", "BOY")
-        BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
-        BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
+        BOT_TOKEN = os.environ.get("BOT_TOKEN", "5449951995:AAH0n-EZUc6H0iJJcSkxCs4lYQgWy17QcSU")
+        BOT_USERNAME = os.environ.get("BOT_USERNAME", "@flaming_AI_bot")
         FORCE_SUB = os.environ.get("FORCE_SUB", None)
         FORCE_CHANNEL_UN = os.environ.get("FORCE_CHANNEL_UN", None)
-        LOGGER_ID = int(os.environ.get("LOGGER_ID", None))
-        HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
-        HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME",None)
-        BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+        LOGGER_ID = int(os.environ.get("LOGGER_ID", "-1001722877881"))
+        HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "c3870729-30d9-4e03-81b6-119e7bff6757")
+        HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "flamingassistant123")
+        BOT_TOKEN = os.environ.get("BOT_TOKEN", "5449951995:AAH0n-EZUc6H0iJJcSkxCs4lYQgWy17QcSU")
         # can get from https://coffeehouse.intellivoid.net/
         RANDOM_STUFF_API_KEY = os.environ.get("RANDOM_STUFF_API_KEY", None)
         # github vars
-        BOT_USERNAME = os.environ.get("BOT_USERNAME", 'None')
+        BOT_USERNAME = os.environ.get("BOT_USERNAME", "@flaming_AI_bot")
         FORCE_CHANNEL_ID = int(os.environ.get("FORCE_CHANNEL_ID", False))
         PM_DATA = os.environ.get("PM_DATA", "ON")
         GOOGLE_SEARCH_COUNT_LIMIT = int(os.environ.get("GOOGLE_SEARCH_COUNT_LIMIT", 9))
